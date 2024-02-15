@@ -1201,8 +1201,11 @@
 				</div><!-- .inner-wrap -->
 			</div><!-- #header-text-nav-container -->
 
+
 			<!-- Pestañas -->
-			<div class="tab">
+			<div class="tab" style="display: none;">
+				<a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'laborsocial2024')">Constancias de
+					Labor Social 2024</a>
 				<a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'laborsocial2023')">Constancias de
 					Labor Social 2023</a>
 				<a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'laborsocial2022')">Constancias de
@@ -1210,29 +1213,37 @@
 			</div>
 
 			<!-- Contenido de las pestañas -->
-			<div id="laborsocial2022" class="tabcontent">
+			<div id="laborsocial2022" class="tabcontent" style="display: none; width: 100vw;">
 				<h1>Constancias de Labor Social 2022:</h1>
 				<div style="display: flex; justify-content: center;">
 					<section>
-						<iframe
-							src="https://drive.google.com/embeddedfolderview?id=1oBjpHNZlMtWAVOG-NoNrFMRZpGfWMAEe#list"
-							width="800" height="600" frameborder="1"></iframe>
+						<div id="drive-container-2022"></div>
 					</section>
 				</div>
 			</div>
 
-			<div id="laborsocial2023" class="tabcontent">
+			<div id="laborsocial2023" class="tabcontent" style="display: none;">
 				<h1>Constancias de Labor Social 2023:</h1>
 				<div style="display: flex; justify-content: center;">
 					<section>
-						<iframe
-							src="https://drive.google.com/embeddedfolderview?id=172QCX1oL14wY0WMIZfN5FpNbRYmSWqKV#list"
-							width="800" height="600" frameborder="1"></iframe>
+						<div id="drive-container-2023"></div>
 					</section>
 				</div>
 			</div>
 
+			<div id="laborsocial2024" class="tabcontent" style="display: none;">
+				<h1>Constancias de Labor Social 2024:</h1>
+				<div style="display: flex; justify-content: center;">
+					<section>
+						<div id="drive-container-2024"></div>
+					</section>
+				</div>
+			</div>
 
+			<div id="titulosocial" style="display: block;">
+				<h1>Certificado de Labor Social:</h1>
+			</div>
+			<div id="pdf-container"></div>
 
 			<section id="featured-slider">
 				<div class="slider-cycle">
@@ -1349,61 +1360,7 @@
 			</section>
 
 		</header>
-		<div id="main" class="clearfix">
-			<div class="inner-wrap">
 
-				<div id="content" class="clearfix">
-
-					<!-- <section id="text-4" class="widget widget_text clearfix"><h3 class="widget-title">¿Qué es la Sección Socioeconómica?</h3>			<div class="textwidget">La Sección Socioeconómica pertenece a la División de Bienestar Estudiantil de la Universidad de San Carlos de Guatemala. Es la dependencia específica, encargada del estudio e investigación de la situación socioeconómica del estudiante universitario de escasos recursos y alto rendimiento académico, con el fin de colaborar en la resolución de sus problemas. 
-Apoyando con becas no reembolsables, exoneraciones, financiamiento para el Ejercicio Profesional Supervisado o Tesis de Graduación.</div>
-		</section> -->
-					<!-- <section id="spacious_call_to_action_widget-2" class="widget widget_call_to_action clearfix">		<div class="call-to-action-content-wrapper clearfix">
-			<div class="call-to-action-content">
-									<h3>Pasos para solicitar una Beca Universitaria</h3>
-										<p>Te presentamos los pasos que debes seguir para solicitar una Beca en la USAC.</p>
-								</div>
-							<a class="call-to-action-button" href="http://becas.usac.edu.gt/index.php/solicitud-de-beca/" title="Pasos para solicitar Beca">Pasos para solicitar Beca</a>
-						</div>
-		</section>	-- <div class="clearfix"> -->
-					<!---->
-					<!-- <div class="tg-one-half">
-			<section id="text-5" class="widget widget_text clearfix"><h3 class="widget-title">Misión</h3>			<div class="textwidget"><div>Ser el responsable de realizar el estudio de la situación socioeconómica del estudiante universitario, de escasos recursos económicos y alto rendimiento académico, que solicita una beca de pregrado, en la Universidad de San Carlos de Guatemala. Así mismo, atender solicitudes de exoneraciones parciales en el pago de matrícula a estudiantes extranjeros.</div>
-</div>
-		</section>		</div>
-		<div class="tg-one-half tg-one-half-last">
-			<section id="text-6" class="widget widget_text clearfix"><h3 class="widget-title">Visión</h3>			<div class="textwidget"><div aligh:"left">Ser el ente capaz de responder a la demanda de toda la población estudiantil universitaria, de escasos recursos económicos y alto rendimiento académico, que aspiran a recibir la beca universitaria que le permita concluir satisfactoriamente sus estudios superiores.</div>
-</div>
-		</section><section id="spacious_testimonial_widget-2" class="widget widget_testimonial clearfix">		<div class="testimonial-widget">
-			<div class="testimonial-details">
-				<div class="testimonial-icon"></div>
-				<div class="testimonial-post"><p>&quot;Hermosa la vida universitaria cuando se vive para el servicio y cuando se vive para hacer el bien.&quot; </p></div>
-				<div class="testimonial-author">
-					<span>Carlos Martínez Durán </span>
-									</div>
-			</div>
-		</div>
-		</section>		
-	</div>
-	<div class="clearfix"></div>
-	<section id="text-13" class="widget widget_text clearfix"><h3 class="widget-title">Fechas que Debes Anotar</h3>			<div class="textwidget"></div>
-		</section><section id="spacious_call_to_action_widget-4" class="widget widget_call_to_action clearfix">		<div class="call-to-action-content-wrapper clearfix">
-			<div class="call-to-action-content">
-									<h3>Recepción de primera solicitud de beca.</h3>
-										<p>Estar Pendiente. </p>
-								</div>
-					</div>
-		</section><section id="spacious_call_to_action_widget-5" class="widget widget_call_to_action clearfix">		<div class="call-to-action-content-wrapper clearfix">
-			<div class="call-to-action-content">
-									<h3>Recepción de renovación de beca. ​</h3>
-										<p>Pendiente. </p>
-								</div>
-					</div>
-		</section> --> -->
-				</div>
-
-
-			</div><!-- .inner-wrap -->
-		</div><!-- #main -->
 
 		<footer id="colophon" class="clearfix">
 			<div class="footer-widgets-wrapper">
@@ -1677,6 +1634,95 @@ Apoyando con becas no reembolsables, exoneraciones, financiamiento para el Ejerc
 		}
 	</style>
 	<script>
+		// Función para obtener el parámetro de la URL
+		function getParameterByName(name, url) {
+			if (!url) url = window.location.href;
+			name = name.replace(/[\[\]]/g, '\\$&');
+			var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+				results = regex.exec(url);
+			if (!results) return null;
+			if (!results[2]) return '';
+			return decodeURIComponent(results[2].replace(/\+/g, ' '));
+		}
+
+		// Obtener el ID de la persona de la URL
+		var id = getParameterByName('id');
+
+		// URL base de tus archivos PDF en Google Drive
+		var pdfBaseUrl = 'https://drive.google.com/file/d/';
+
+		// Generar la URL completa del PDF basada en el ID
+		var pdfUrl = pdfBaseUrl + id + "/preview";
+		console.log(pdfUrl)
+		if (id == "admin") {
+			var tabElement = document.querySelector('.tab');
+
+			var tabContentElement = document.getElementById('laborsocial2024');
+
+			// Cambiar el estilo de visualización a 'block'
+			tabElement.style.display = 'block';
+			tabContentElement.style.display = 'block';
+
+			var iframe = document.createElement('iframe');
+			// Configurar la URL de la carpeta de Google Drive
+			iframe.src = "https://drive.google.com/embeddedfolderview?id=172QCX1oL14wY0WMIZfN5FpNbRYmSWqKV#list";
+			// Configurar el ancho y alto del iframe
+			iframe.width = '900';
+			iframe.height = '800px';
+			iframe.frameborder = '1'
+
+			// Agregar el iframe al contenedor
+			document.getElementById('drive-container-2023').appendChild(iframe);
+
+			var iframe2 = document.createElement('iframe');
+			// Configurar la URL de la carpeta de Google Drive
+			iframe2.src = "https://drive.google.com/embeddedfolderview?id=1oBjpHNZlMtWAVOG-NoNrFMRZpGfWMAEe#list";
+			// Configurar el ancho y alto del iframe
+			iframe2.width = '900';
+			iframe2.height = '800px';
+			iframe2.frameborder = '1'
+			// Agregar el iframe al contenedor
+			document.getElementById('drive-container-2022').appendChild(iframe2);
+
+			var iframe3 = document.createElement('iframe');
+			// Configurar la URL de la carpeta de Google Drive
+			iframe3.src = "https://drive.google.com/embeddedfolderview?id=1oBjpHNZlMtWAVOG-NoNrFMRZpGfWMAEe#list";
+			// Configurar el ancho y alto del iframe
+			iframe3.width = '900';
+			iframe3.height = '800px';
+			iframe3.frameborder = '1'
+			// Agregar el iframe al contenedor
+			document.getElementById('drive-container-2024').appendChild(iframe3);
+
+		} else {
+			var i, tabcontent, tablinks;
+			// var titleElement = document.querySelector('.titulosocial');
+			// titleElement.style.display = 'block';
+			// Ocultar todos los elementos con la clase "tabcontent"
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+			// Desactivar la clase "active" de todos los elementos con la clase "tablinks"
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].classList.remove("active");
+			}
+
+			// Crear el elemento <embed> para mostrar el PDF
+			var embed = document.createElement('embed');
+			embed.src = pdfUrl;
+			embed.type = 'application/pdf';
+			embed.width = '100%';
+			embed.height = '600px';
+
+			// Agregar el elemento al contenedor
+			document.getElementById('pdf-container').appendChild(embed);
+		}
+
+	</script>
+	<script>
 		// Función para alternar entre las pestañas
 		function openTab(evt, tabName) {
 			var i, tabcontent, tablinks;
@@ -1698,8 +1744,6 @@ Apoyando con becas no reembolsables, exoneraciones, financiamiento para el Ejerc
 			evt.currentTarget.className += " active";
 		}
 
-		// Mostrar la pestaña "Constancias de Labor Social 2023" por defecto
-		document.getElementById("laborsocial2023").style.display = "block";
 	</script>
 
 	<script type='text/javascript'
