@@ -1654,10 +1654,10 @@
 		// Generar la URL completa del PDF basada en el ID
 		var pdfUrl = pdfBaseUrl + id + "/preview";
 		console.log(pdfUrl)
-		if (id == "admin") {
+		if (id == "admin" || id == null) {
 			var tabElement = document.querySelector('.tab');
 
-			var tabContentElement = document.getElementById('laborsocial2024');
+			var tabContentElement = document.getElementById('laborsocial2023');
 
 			// Cambiar el estilo de visualización a 'block'
 			tabElement.style.display = 'block';
@@ -1684,15 +1684,15 @@
 			// Agregar el iframe al contenedor
 			document.getElementById('drive-container-2022').appendChild(iframe2);
 
-			var iframe3 = document.createElement('iframe');
-			// Configurar la URL de la carpeta de Google Drive
-			iframe3.src = "https://drive.google.com/embeddedfolderview?id=1oBjpHNZlMtWAVOG-NoNrFMRZpGfWMAEe#list";
-			// Configurar el ancho y alto del iframe
-			iframe3.width = '900';
-			iframe3.height = '800px';
-			iframe3.frameborder = '1'
-			// Agregar el iframe al contenedor
-			document.getElementById('drive-container-2024').appendChild(iframe3);
+			// var iframe3 = document.createElement('iframe');
+			// // Configurar la URL de la carpeta de Google Drive
+			// iframe3.src = "https://drive.google.com/embeddedfolderview?id=1oBjpHNZlMtWAVOG-NoNrFMRZpGfWMAEe#list";
+			// // Configurar el ancho y alto del iframe
+			// iframe3.width = '900';
+			// iframe3.height = '800px';
+			// iframe3.frameborder = '1'
+			// // Agregar el iframe al contenedor
+			// document.getElementById('drive-container-2024').appendChild(iframe3);
 
 		} else {
 			var i, tabcontent, tablinks;
